@@ -32,7 +32,9 @@ body{
     color:black;
     border:1px solid #8338EC;
 }
-
+.btn:focus{
+    color:#8338EC;
+}
 /* end of buttons */
 
 #header, section{
@@ -59,3 +61,22 @@ body{
     border:1px dashed #CED4DA;
 }
   
+.custom-dropdown {
+    width: 300px;
+}
+/* i know overriding bootstrap styles via !important aint the best practise and still, that worked :d  */
+.custom-dropdown .dropdown-menu {
+    position: absolute !important; 
+    top: 50px !important;  
+    left: 0px !important;
+    width: 688px; 
+    transform: none !important; 
+    border:1px solid #8338EC;
+}
+
+.dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.sort-box{
+    position:relative;
+}
