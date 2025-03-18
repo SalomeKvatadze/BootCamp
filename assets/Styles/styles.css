@@ -1,10 +1,51 @@
+@font-face {
+    font-family: 'Firago';
+    src: url('../fonts/firago-latin-100-normal.woff2') format('woff2'),
+         url('../fonts/firago-latin-100-normal.woff') format('woff');
+ }
+
+
+
+
+
 *{
         Xborder:1px solid red;
         box-sizing: border-box;
+        font-family: firago;
+
 }
+
 body{
     width:1920px;
 }
+
+
+.fs-34{
+    font-size:34px;
+}
+
+.fw-medium{
+    font-family: 'Firago';
+    font-weight:500;
+}
+.p{
+    font-size:16px;
+}
+.fs-20{
+    font-size:20px;
+}
+.fs-12{
+    font-size:12px;
+}
+.fs-15{
+    font-size:15px;
+}
+
+
+
+
+
+
 
 
 /* colors */
@@ -79,4 +120,38 @@ body{
 }
 .sort-box{
     position:relative;
+}
+
+
+.priority-box{
+    width:86px;
+    padding:3px;
+}
+
+.bg-yellow{
+    background-color: #F7BC30;
+}
+
+.border-yellow{
+    border:1px solid #F7BC30;
+}
+.text-yellow{
+    color:#F7BC30;
+}
+.department-design{
+    background-color:#FF66A8;
+    color:white;
+
+}
+.bg-pink{
+    background-color: #FF66A8;
+}
+
+
+
+.avatarIMG  {
+    width:31px;
+    height:31px;
+    object-fit: cover;
+    border-radius: 50%;
 }
